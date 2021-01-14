@@ -1,0 +1,20 @@
+.pet-card{
+    transition: 2s;
+}
+
+.pet-cards-wrapper{
+    width: 810px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.pet-cards-d{
+    width: 810px;
+
+    display: flex;
+    flex-direction: row;
+    transition: transform 1s  ease-in-out;
+    transition: all 1s ease-out;
+    transition: margin-right 2s ease-in-out;
+}

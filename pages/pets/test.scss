@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header-container{
+    background: linear-gradient(135deg,orange,60%,violet);
+}
+
+
+.wrapper{
+    background-color: #666;
+    width: 62.5vw;
+    margin:0 auto;
+    display: grid;
+    grid-gap: 2vw;
+
+    grid-template-columns: 2fr 200px;
+}
+
+.outer-block{
+    background-color: #f07d97;
+    margin: 10px;
+    display: grid;
+    align-items: end;
+    justify-content: center;
+}
+
+
+.inner-block{
+    background-color: #96e396;
+}
+
+.inner-block img{
+    width: 15vw;
+
+}
